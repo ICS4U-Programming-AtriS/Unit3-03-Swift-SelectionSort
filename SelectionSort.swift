@@ -21,7 +21,7 @@ func selectionSort(_ array: [Int]) -> [Int] {
     // Get the array's size
     let arrSize = arr.count
     // Get the bound for iteration
-    let iterationstop = arrSize - 1;
+    let iterationstop = arrSize - 1
     // Iterate over the bound
     for threshold in 0 ..< iterationstop {
         // Get the smallest number
@@ -36,7 +36,7 @@ func selectionSort(_ array: [Int]) -> [Int] {
             // Get the number found at the index
             let num = arr[index]
             // Check if it is smaller
-            if (num < minNum) {
+            if num < minNum {
                 // If so, make it the new smallest number
                 minNum = num
                 minNumIndex = index
